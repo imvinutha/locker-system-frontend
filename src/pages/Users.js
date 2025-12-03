@@ -4,9 +4,12 @@ import { AuthContext } from '../context/AuthContext';
 import axios from 'axios';
 import { API_URL } from '../config';
 
+
 const Users = () => {
   const { user } = useContext(AuthContext);
-  const [, setUsers] = useState([]);
+  // const [, setUsers] = useState([]);
+  const [users, setUsers] = useState([]);
+
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [refreshing, setRefreshing] = useState(false);
