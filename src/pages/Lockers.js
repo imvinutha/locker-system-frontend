@@ -3,8 +3,8 @@ import { View, Text, StyleSheet, TouchableOpacity, ScrollView, ActivityIndicator
 import { AuthContext } from '../context/AuthContext';
 import axios from 'axios';
 import { API_URL } from '../config';
-import DirectLockerAccess from '../components/DirectLockerAccess';
-import AccessCodeUnlock from '../components/AccessCodeUnlock';
+// import DirectLockerAccess from '../components/DirectLockerAccess';
+// import AccessCodeUnlock from '../components/AccessCodeUnlock';
 import BookingSummaryCard from '../components/BookingSummaryCard';
 import { colors, radii } from '../theme';
 

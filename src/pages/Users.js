@@ -6,7 +6,7 @@ import { API_URL } from '../config';
 
 const Users = () => {
   const { user } = useContext(AuthContext);
-  const [users, setUsers] = useState([]);
+  const [, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [refreshing, setRefreshing] = useState(false);
