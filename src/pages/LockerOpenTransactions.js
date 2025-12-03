@@ -4,8 +4,10 @@ import { AuthContext } from '../context/AuthContext';
 import axios from 'axios';
 import { API_URL } from '../config';
 
-const LockerOpenTransactions = () => {
-  const { user } = useContext(AuthContext);
+// const LockerOpenTransactions = () => {
+  const LockerOpenTransactions = (props) => {
+    const { lockers } = props;
+  // const { user } = useContext(AuthContext);
 
   const [openEvents, setOpenEvents] = useState([]);
   const [loading, setLoading] = useState(true);
