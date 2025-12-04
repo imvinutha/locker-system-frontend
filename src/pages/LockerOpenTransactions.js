@@ -1,12 +1,12 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect, /*useContext*/ } from 'react';
 import { View, Text, StyleSheet, ScrollView, ActivityIndicator, TouchableOpacity } from 'react-native-web';
-import { AuthContext } from '../context/AuthContext';
+// import { AuthContext } from '../context/AuthContext';
 import axios from 'axios';
 import { API_URL } from '../config';
 
 // const LockerOpenTransactions = () => {
   const LockerOpenTransactions = (props) => {
-    const { lockers } = props;
+    // const { lockers } = props;
   // const { user } = useContext(AuthContext);
 
   const [openEvents, setOpenEvents] = useState([]);
